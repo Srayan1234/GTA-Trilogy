@@ -1,0 +1,36 @@
+body {
+    background: radial-gradient(#fff,#ffd6d6, #fff,#ffd6d6,#fff,#ffd6d6);
+    text-align: center;
+}
+#Title {
+    line-height: 30px;
+}
+#SB {
+    border: 0px transparent;
+    width: 250px;
+    height: 100px;
+    background: red;
+    border-radius: 20px;
+    color: white;
+    font-size: 40px;
+}
+#BI {
+    border: 0px transparent;
+    width: 250px;
+    height: 100px;
+    background: red;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+}
+.s1 {
+    font-size: 25px;
+}
+.s2 {
+    font-size: 25px;
+}
+.btn {
+    background: lime;
+    width: 100px;
+    height: 50px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gamer Gang 360</title>
+</head>
+<body>
+    <h1>Gamer Gang 360</h1>
+    <h2>Welcome to my official website</h2>
+    <h2 id="Title">Today I will give you<br>GTA Trilogy for free</h2>
+    <h3>#No ad</h3>
+    <!-- step 1 -->
+    <h3 class="s1">Step 1</h3>
+    <a href="https://www.youtube.com/channel/UCPUrS8JR9NnuCPk4UGVAzVA" target="blank"><button id="SB"><b>Subscribe</b></button></a>
+    <!-- step 2   -->
+    <h3 class="s2">Step 2</h3>
+    <a href="https://www.youtube.com/channel/UCPUrS8JR9NnuCPk4UGVAzVA" target="blank"><div id="s22"><button id="BI" onclick="dl()"><b>Press the Bell Icon</b></button></div></a>
+    <br>
+    <!-- down -->
+    <div id="down_div"><button style='background: transparent; border: transparent;'><img id='image' src='img/253482022_424405492619453_8018499365666192693_n.png'></button></div> 
+
+    <script>
+        function dl(){
+            var downl = "<a href='download.html' target='blank'><button style='background: transparent; border: transparent;'><img id='image' src='img/Download-Now-Button-PNG-File.JPG.png'></button></a>"
+            document.getElementById('down_div').innerHTML = downl
+        }
+    </script>
+</body>
+</html>

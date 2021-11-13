@@ -1,0 +1,25 @@
+body {
+    background: radial-gradient(#fff,#ffd6d6);
+    text-align: center;
+}
+
+.btn {
+    background: lime;
+    width: 400px;
+    height: 100px;
+    border: transparent;
+    border-radius: 100px;
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn2 {
+    background: lime;
+    width: 400px;
+    height: 100px;
+    border: transparent;
+    border-radius: 100px;
+    font-size: 50px;
+}
